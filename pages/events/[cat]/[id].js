@@ -1,15 +1,8 @@
 //dynamic page
-import Image from "next/image";
+import SingleEvent from "@/src/components/events/single-event";
 
 function EventPage({ data }) {
-  console.log(data);
-  return (
-    <div>
-      <Image src={data.image} width={1000} height={500} alt={data.title} />
-      <h1>{data.title}</h1>
-      <p>{data.description}</p>
-    </div>
-  );
+  return <SingleEvent data={data} />;
 }
 
 export default EventPage;
