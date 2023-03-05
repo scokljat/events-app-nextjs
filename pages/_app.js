@@ -1,4 +1,4 @@
-import MainLayout from "@/src/components/layout/main-layout";
+import MainLayout from "@/components/layout/main-layout";
 import "@/styles/globals.css";
 import "@/styles/general.sass";
 
