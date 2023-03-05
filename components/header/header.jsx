@@ -28,7 +28,7 @@ function Header() {
             </ul>
           </nav>
         </div>
-        <p className="title">nesto</p>
+        <p className="title">Events</p>
       </div>
     </header>
   );
